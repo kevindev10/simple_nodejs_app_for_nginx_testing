@@ -2,10 +2,13 @@ FROM node:14
 
 WORKDIR /app
 
-COPY server.js .
-COPY index.html .
-COPY images ./images
-COPY package.json .
+# COPY server.js .
+# COPY index.html .
+# COPY images ./images
+# COPY package.json .
+
+# Short version of the above COPY commands
+COPY . .
 
 RUN npm install
 
