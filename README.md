@@ -1,6 +1,3 @@
-
-
-```markdown
 # 🚀 Node.js + Nginx Load-Balancing Project
 
 This project demonstrates how to combine Nginx and multiple Node.js servers using HTTPS, reverse proxying, and Docker. It serves a static HTML frontend, distributes traffic across multiple backend containers, and includes full SSL termination with a self-signed certificate.
@@ -234,7 +231,6 @@ Also serves as a foundation for CI/CD pipelines, service discovery, and containe
 ---
 
 🛠 Built by [Kevin]. Feel free to fork, extend, deploy—and show future you how it’s really done.
-```
 
 
 
