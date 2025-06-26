@@ -1,0 +1,22 @@
+version: '3'
+services:
+  simple_nodejs_app_for_nginx_testing1:
+    build: .
+    environment:
+      - APP_NAME=simple_nodejs_app_for_nginx_testing1 
+    ports:
+      - "3001:3000"
+
+  simple_nodejs_app_for_nginx_testing2:
+    build: .
+    environment:
+      - APP_NAME=simple_nodejs_app_for_nginx_testing2
+    ports:
+      - "3002:3000"
+
+  simple_nodejs_app_for_nginx_testing3:
+    build: .
+    environment:
+      - APP_NAME=simple_nodejs_app_for_nginx_testing3
+    ports:
+      - "3003:3000"
